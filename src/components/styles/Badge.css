@@ -3,13 +3,15 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.10);
     border-radius: 8px 8px 8px 8px;
     overflow: hidden;
-    /* height: 380px; */
   }
   
   .Badge__header {
     padding: 0.5rem 0;
-    height: 200px;
-    background: #1B1B25;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://anneofgreengardens.com/wp-content/uploads/2015/08/Natural-Lawn-Care-banner-anne-of-green-gardens.jpg');
+    background-position-y: bottom;
     display: flex;
     justify-content: center;
   }

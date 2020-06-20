@@ -1,8 +1,8 @@
 import React from 'react'; // Analogous to createElement
 import ReactDOM from 'react-dom'; // Analogous to appendChild
-import Badge from './components/Badge'
 import 'bootstrap/dist/css/bootstrap.css'
 import './global.css'
+import App from './components/App'
 // import './index.css';
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
@@ -29,8 +29,7 @@ const container = document.getElementById('app')
 // const googleLink = React.createElement('a', {href: 'https://google.com'}, 'Google')
 // ReactDOM.render(googleLink, container, )
 
-const badge = <Badge/>
-ReactDOM.render(badge, container)
+ReactDOM.render(<App />, container)
 
 
 
